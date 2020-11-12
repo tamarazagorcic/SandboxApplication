@@ -1,0 +1,74 @@
+
+{
+    "GENERAL": {
+        "ERROR" : ".invalid-feedback",
+        "SYSTEMMESSGAE" : "div[role=alert]"
+        
+    },
+
+    "LOGIN": {
+        "LOGINBTN": "a[href='/login']",
+        "EMAIL": "input[name=email]",
+        "PASSWORD": "input[name=password]",
+        "SUBMITBTN": "button[type=submit]",
+        "ERROR" : ".invalid-feedback"
+    },
+
+
+    "HEADER": {
+        "SANDBOX": "a[href='/dashboard']",
+        "EXAM": "a[href='/exam']",
+        "INTRO": "a[href='/intro']",
+        "LOGOUT": "a[href='#top']"    
+    },
+
+    
+    "DASHBOARD": {
+        "PROFILE": "[data-testid=profile_card_id]",
+        "USECASES": "[data-testid=use_cases_card_id]",
+        "PLAYGROUND": "[data-testid=playground_card_id]",
+        "REPORTS": "[data-testid=reports_card_id]"
+
+    },
+
+    "USECASES": {
+        "ADDNEW": "[data-testid=create_use_case_btn]",
+        "NAME": "input[name=title]",
+        "DESCRIPTION": "textarea[name=description]",
+        "EXPECTEDRESULT": "input[name=expected_result]",
+        "ADDSTEP": "button[data-testid=add_step_btn]",
+        "AUTOMATED": "label[for=switch]",
+        "SUBMIT": "button[data-testid=submit_btn]",
+        "USECASEINLIST" : ".list-group-item",
+        "BACK": "a[href='/dashboard']",
+        "IMGLOADING": "img[alt='Loading...']",
+        "DELETE": "button[data-testid=remove_usecase_btn]",
+        "CONFIRMDELETE" : "button[type=button]",
+        "FIRSTSTEP" : "input[name=testStepId-0]"
+
+    },
+
+    "REPORTS": {
+        "ADDNEW": "[data-testid=report_issue_btn]",
+        "SUMMARY": "input[name=summary]",
+        "TYPE": "select[name=type]",
+        "SEVERITY": "select[name=severity]",
+        "PRIORITY": "select[name=priority]",
+        "SUBMIT": "button[data-testid=submit_btn]",
+        "DESCRIPTION": "textarea[name=description]",
+        "ADDSTEP": "button[data-testid=add_step_btn]",
+        "REPORTINLIST" : ".list-group-item",
+        "BACK": "a[href='/dashboard']",
+        "IMGLOADING": "img[alt='Loading...']",
+        "DELETE": "button[data-testid=remove_report_btn]",
+        "CONFIRMDELETE" : "button[type=button]",
+        "FIRSTSTEP" : "input[name=testStepId-0]",
+        "ADDIMG" : "input[name=image]",
+        "DELETEIMG" : ".close"
+
+    }
+
+
+}
+
+

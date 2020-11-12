@@ -1,0 +1,85 @@
+{
+
+    "UseCase1": {
+        "title": "Mandatory fields for Login page",
+        "description": "This use case checks what are mandatory fields on the Login page.",
+        "expectedResult": "The error messages for required fields email and password should appear.",
+        "steps": [
+            {"text":"Precondition: User is on 'Login' page. "},
+            {"text":"Click on 'Submit' button. "},
+            {"text":"Confirm that error message for email field and password is shown. "}     
+        ]
+   
+    },
+
+    "UseCase2": {
+        "title": "Mandatory fields for add Use Case page",
+        "description": "This use case checks what are mandatory fields on the add Use Case page.",
+        "expectedResult": "The error messages for required fields title, expected result and steps should appear.",
+        "steps": [
+            {"text":"Precondition: User is on Use Cases page. "},
+            {"text":"Click on 'Create use case' button . "},
+            {"text":"Click on 'Submit' button. "},
+            {"text":"Confirm that error messages for title and expected result and steps are shown. "}
+            
+        ]
+   
+    },
+    "UseCase3": {
+        "title": "Adding new automated Use Case",
+        "description": "This use case checks if the user can successfully add new automated use case.",
+        "expectedResult": "The user successfully adds automated use case and newly added test case is shown in Use cases list.",
+        "steps": [
+            {"text":"Precondition: User is on Use Cases page. "},
+            {"text":"Click on 'Create use case' button . "},
+            {"text":"Populate title field with valid input. "},
+            {"text":"Populate description field with valid input. "},
+            {"text":"Populate expected result with valid input. "},
+            {"text":"Populate one step with valid input. "},
+            {"text":"Click on 'Automated' slider/switch . "},
+            {"text":"Click on 'Submit' button. "},
+            {"text":"Confirm that user is on the User Cases page and the newly created use case is shown in use cases list.. "}
+            
+        ]
+   
+    },
+    "UseCase4": {
+        "title": "Change use case from not automated to automated",
+        "description": "This use case checks if user can change use case from not automated to automated.",
+        "expectedResult": "On the use cases page the edited use case has automated icon next to title. On the Playground card the number of automated tests changes for +1",
+        "steps": [
+            {"text":"Precondition: User has created non automated use case."},
+            {"text":"Navigate to the use cases list and click on the use case from precondition."},
+            {"text":"On the Edit use case page click on the 'Automated' slider. Confirm that Automated is set to Yes. "},
+            {"text":"Click on 'Submit' button."},
+            {"text":"Confirm that on the use cases list page next to the title of use case from preconition the automated icon is shown. "},
+            {"text":"Click on Sandbox tab in header and confirm that on Playground card the number of automated tests changes for +1."}     
+        ]
+   
+    },
+    "UseCase5": {
+        "title": "Use Case title",
+        "description": "This is description of use case.",
+        "expectedResult": "This is expected result.",
+        "steps": [
+            {"text":"First Step"},
+            {"text":"Second Step"}
+     
+        ]
+   
+    },
+
+    "UseCase6": {
+        "title": " Edited Use Case title",
+        "description": "Edited description.",
+        "expectedResult": "Edited expected result.",
+        "steps": [
+            {"text":"Edited First step"},
+            {"text":"Edited secon step"}
+     
+        ]
+   
+    }
+   
+
+}

@@ -1,0 +1,32 @@
+{
+
+    "Report1": {
+        "summary": "Report summary",
+        "description": "This is description of reported issue.",
+        "type": "Bug",
+        "severity": "Medium",
+        "priority": "Minor",
+        "steps": [
+            {"text":"First Step"},
+            {"text":"Second Step"}
+     
+        ]
+   
+    },
+
+    "Report2": {
+        "summary": "Edited Report summary",
+        "description": "Edited description of reported issue.",
+        "type": "Bug",
+        "severity": "Medium",
+        "priority": "Minor",
+        "steps": [
+            {"text":"First Step Edit"},
+            {"text":"Second Step"}
+     
+        ]
+   
+    },
+   
+
+}

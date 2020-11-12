@@ -1,0 +1,10 @@
+# Node Files #
+/node_modules/
+
+# Other
+/mochawesome-report/
+/cypress/screenshots/
+/cypress/integration/
+/cypress/videos/
+/cypress/reports/
+/package-lock.json
